@@ -1,0 +1,47 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LLaM",
+				"abbreviation": "LLaM",
+				"full": "Lily's Looting and More",
+				"authors": [
+					"ActualLily"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/ActualLily/lilys-looting-and-more",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1628492277,
+		"dateLastModified": 1628492277
+	},
+	"item": [
+		{
+			"name": "Fletcher's Tools",
+			"type": "AT",
+			"rarity": "common",
+			"source": "LLaM",
+			"additionalEntries": [
+				"Although maintaining of ranged weapons is usually left to the experts, a crafty adventurer can ensure plenty of usage of these tools in making sure their ranged weaponry is up to speed.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"Fletcher's tools consist of a small knife, glue made from animal fat, "
+					]
+				},
+			]
+		},
+		{
+			"name": "+1 Leather",
+			"type": "TG",
+			"rarity": "rare",
+			"source": "LLaM",
+			"entries": [
+				"A remnant of a beast or animal. {@spell Melf's Acid Arrow|PHB}.",
+				"Can be crafted into {@item Leather Armor|PHB} as long"
+			]
+		}
+	]
+}
