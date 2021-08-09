@@ -30,7 +30,7 @@
 					"entries": [
 						"Fletcher's tools consist of a small knife, glue made from animal fat, "
 					]
-				},
+				}
 			]
 		},
 		{
@@ -38,10 +38,18 @@
 			"type": "TG",
 			"rarity": "rare",
 			"source": "LLaM",
-			"entries": [
-				"A remnant of a beast or animal. {@spell Melf's Acid Arrow|PHB}.",
-				"Can be crafted into {@item Leather Armor|PHB} as long"
-			]
+			"weight": 5,
+			"price": 20000,
+			"additionalEntries": [
+				"A remnant of a beast or animal.",
+			{
+				"type": "entries",
+				"name": "Crafting",
+				"entries": [
+					"With a DC16 {@item Leatherworker's Tools|PHB} check, convert this item into {@item +1 Leather Armor|PHB} during a long rest."
+				]
+			}
+		]
 		}
 	]
 }
