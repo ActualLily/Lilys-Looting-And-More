@@ -18,7 +18,7 @@
 	},
 	"item": [
 		{
-			"name": "Fletcher's Tools",
+			"name": "Fletcher's Kit",
 			"type": "AT",
 			"rarity": "common",
 			"source": "LLaM",
@@ -28,28 +28,108 @@
 					"type": "entries",
 					"name": "Components",
 					"entries": [
-						"Fletcher's tools consist of a small knife, glue made from animal fat, "
+						"Fletcher's tools consist of a small knife, glue made from animal fat, string, small weights for balancing and jigs."
 					]
 				}
 			]
 		},
 		{
-			"name": "+1 Leather",
+			"name": "+1 Beastskin",
 			"type": "TG",
 			"rarity": "rare",
 			"source": "LLaM",
 			"weight": 5,
-			"price": 20000,
+			"price": 12000,
 			"additionalEntries": [
-				"A remnant of a beast or animal.",
-			{
-				"type": "entries",
-				"name": "Crafting",
-				"entries": [
-					"With a DC16 {@item Leatherworker's Tools|PHB} check, convert this item into {@item +1 Leather Armor|PHB} during a long rest."
-				]
-			}
-		]
+				"Remnant of a beast or animal. Could be turned into somewhat stronger-than-normal armor.",
+				{
+					"type": "entries",
+					"name": "Crafting",
+					"entries": [
+						"With a DC16 {@item Leatherworker's Tools|PHB} check, convert this item into {@item +1 Leather Armor|DMG} during a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Beast Claw",
+			"type": "TG",
+			"rarity": "common",
+			"source": "LLaM",
+			"weight": 0,
+			"price": 2,
+			"additionalEntries": [
+				"The claw of a ferocious animal, showing marks of many successful hunts.",
+				{
+					"type": "entries",
+					"name": "Crafting",
+					"entries": [
+						"With a {@item Fletcher's Kit|LLaM}, convert up to 10 of this item into {@item Arrow|PHB} during a short rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aarakocra Talon",
+			"type": "TG",
+			"rarity": "common",
+			"source": "LLaM",
+			"weight": 0,
+			"price": 4,
+			"additionalEntries": [
+				"The sharp claws of a bird's footm slightly brownish in color.",
+				{
+					"type": "entries",
+					"name": "Crafting",
+					"entries": [
+						"Has the same crafting properties as {@item Beast Claw|LLaM}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Illusory Dust",
+			"type": "TG",
+			"rarity": "rare",
+			"source": "LLaM",
+			"weight": 0,
+			"price": 1000,
+			"additionalEntries": [
+				"Mundane dust infused with the raw magical power of Illusion. Some remnants of the original spell still remain.",
+				"Whenever you cast a spell, you can use any amount of this item instead of components that cost gp in the casting of that spell."
+			]
+		},
+		{
+			"name": "Demonskin",
+			"type": "TG",
+			"rarity": "rare",
+			"source": "LLaM",
+			"weight": 5,
+			"price": 16000,
+			"additionalEntries": [
+				"Remains of a demonic or devilish creature. It's warm to the touch and harder than you'd expect, as if tempered in the fires of Hell.",
+				{
+					"type": "entries",
+					"name": "Crafting",
+					"entries": [
+						"With a DC18 {@item Leatherworker's Tools|PHB} check, convert this item over a long rest into {@item Demonleather Armor|LLaM}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Demonleather Armor",
+			"source": "LLaM",
+			"type": "LA",
+			"rarity": "rare",
+			"weight": 5,
+			"value": 1000,
+			"ac": 12,
+			"armor": true,
+			"entries": [
+				"You have resistance against fire damage.",
+				"Relatively common armor for humanoid denizens of hell without natural protection."
+			]
 		}
 	]
 }
