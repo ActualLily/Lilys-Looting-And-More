@@ -9,12 +9,14 @@
 				"authors": [
 					"Foxfire94"
 				],
-				"convertedBy": [],
+				"convertedBy": [
+					"Foxfire94"
+				],
 				"version": "unknown"
 			}
 		],
 		"dateAdded": 1593285189,
-		"dateLastModified": 1628263680
+		"dateLastModified": 1628444375
 	},
 	"monster": [
 		{
@@ -5910,7 +5912,6 @@
 			"property": [
 				"L",
 				"FFHHH",
-				"FFHHMW",
 				"S"
 			],
 			"entries": [
@@ -6342,7 +6343,7 @@
 			"dmg1": "1d8",
 			"dmgType": "S",
 			"property": [
-				"FFIGH",
+				"FFHHH",
 				"S"
 			],
 			"entries": [
@@ -6350,7 +6351,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"The scabbard of this sword may also be used as a weapon; when held in a free hand you may use a bonus action to make a melee attack with it, as if you were two-weapon fighting, on a turn you make a melee attack with the shikomizue. On a hit the scabbard deals {@damage 1d6} bludgeoning damage."
+						"The scabbard of this sword may also be used as a weapon; when you are holding the shikomizue and its scabbard in each hand they are treated as light weapons. On a hit the scabbard deals {@damage 1d6} bludgeoning damage."
 					]
 				}
 			],
