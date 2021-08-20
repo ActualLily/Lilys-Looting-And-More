@@ -14,7 +14,7 @@
 			}
 		],
 		"dateAdded": 1628492277,
-		"dateLastModified": 1628492277
+		"dateLastModified": 1629442748
 	},
 	"item": [
 		{
@@ -22,7 +22,7 @@
 			"type": "AT",
 			"rarity": "common",
 			"source": "LLaM",
-			"additionalEntries": [
+			"entries": [
 				"Although maintaining of ranged weapons is usually left to the experts, a crafty adventurer can ensure plenty of usage of these tools in making sure their ranged weaponry is up to speed.",
 				{
 					"type": "entries",
@@ -40,7 +40,7 @@
 			"source": "LLaM",
 			"weight": 5,
 			"price": 12000,
-			"additionalEntries": [
+			"entries": [
 				"Remnant of a beast or animal. Could be turned into somewhat stronger-than-normal armor.",
 				{
 					"type": "entries",
@@ -58,7 +58,7 @@
 			"source": "LLaM",
 			"weight": 0,
 			"price": 2,
-			"additionalEntries": [
+			"entries": [
 				"The claw of a ferocious animal, showing marks of many successful hunts.",
 				{
 					"type": "entries",
@@ -76,7 +76,7 @@
 			"source": "LLaM",
 			"weight": 0,
 			"price": 4,
-			"additionalEntries": [
+			"entries": [
 				"The sharp claws of a bird's footm slightly brownish in color.",
 				{
 					"type": "entries",
@@ -88,13 +88,25 @@
 			]
 		},
 		{
+			"name": "Apple of Loki",
+			"type": "P",
+			"rarity": "none",
+			"source": "LLaM",
+			"weight": 1,
+			"entries": [
+				"A shimmering apple, so white it almost seems to be glowing.",
+				"Allows casting of {@spell nystul's magic aura|PHB} by taking a small bite of the apple. It has a total of 200 hours of this spell as charges, and once the entire apple is consumed including core and stem the person eating the apple will gain the same effects as having cast the spell every day over 30 days.",
+				"The effect of this apple is so convincing that the one consuming it is not aware of the respective aura being fake until the passive permanence takes effect, after which the consumer becomes aware of the actual workings."
+			]
+		},
+		{
 			"name": "Illusory Dust",
 			"type": "TG",
 			"rarity": "rare",
 			"source": "LLaM",
 			"weight": 0,
 			"price": 1000,
-			"additionalEntries": [
+			"entries": [
 				"Mundane dust infused with the raw magical power of Illusion. Some remnants of the original spell still remain.",
 				"Whenever you cast a spell, you can use any amount of this item instead of components that cost gp in the casting of that spell."
 			]
@@ -106,7 +118,7 @@
 			"source": "LLaM",
 			"weight": 5,
 			"price": 16000,
-			"additionalEntries": [
+			"entries": [
 				"Remains of a demonic or devilish creature. It's warm to the touch and harder than you'd expect, as if tempered in the fires of Hell.",
 				{
 					"type": "entries",
