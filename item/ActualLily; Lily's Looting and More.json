@@ -88,15 +88,31 @@
 			]
 		},
 		{
+			"name": "Thunderbrew",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "LLaM",
+			"weight": 1,
+			"price": 250,
+			"entries": [
+				"A strong alcoholic beverage. Downing the entire mug in one go will allow you to add your proficiency bonus to unarmed melee attacks for one minute. Additionally, your unarmed strikes get an additional 1d10 thunder damage for one minute.",
+				"When drinking this, roll a DC12 Constitution check. On failure, you go prone."
+			]
+		},
+		{
 			"name": "Apple of Loki",
 			"type": "P",
 			"rarity": "none",
 			"source": "LLaM",
 			"weight": 1,
+			"charges": 200,
+			"attachedSpells": [
+				"nystul's magic aura"
+			],
 			"entries": [
-				"A shimmering apple, so white it almost seems to be glowing.",
-				"Allows casting of {@spell nystul's magic aura|PHB} by taking a small bite of the apple. It has a total of 200 hours of this spell as charges, and once the entire apple is consumed including core and stem the person eating the apple will gain the same effects as having cast the spell every day over 30 days.",
-				"The effect of this apple is so convincing that the one consuming it is not aware of the respective aura being fake until the passive permanence takes effect, after which the consumer becomes aware of the actual workings."
+				"A shimmering apple, so white it seems to be glowing.",
+				"Allows casting of {@spell nystul's magic aura|PHB}, its duration replaced with the amount of charges of the apple used. The charges are used up by taking bites of the apple, consuming it in the process,",
+				"When all 200 charges are used up by a single creature, they gain the passive effect of {@spell nystul's magic aura|PHB} as if they'd been casting it for 30 days."
 			]
 		},
 		{
