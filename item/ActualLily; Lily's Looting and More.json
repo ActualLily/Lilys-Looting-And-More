@@ -1,163 +1,213 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "LLaM",
-				"abbreviation": "LLaM",
-				"full": "Lily's Looting and More",
-				"authors": [
-					"ActualLily"
-				],
-				"version": "1.0.0",
-				"url": "https://github.com/ActualLily/lilys-looting-and-more",
-				"targetSchema": "1.0.0"
-			}
-		],
-		"dateAdded": 1628492277,
-		"dateLastModified": 1629442748
-	},
-	"item": [
-		{
-			"name": "Fletcher's Kit",
-			"type": "AT",
-			"rarity": "common",
-			"source": "LLaM",
-			"entries": [
-				"Although maintaining of ranged weapons is usually left to the experts, a crafty adventurer can ensure plenty of usage of these tools in making sure their ranged weaponry is up to speed.",
-				{
-					"type": "entries",
-					"name": "Components",
-					"entries": [
-						"Fletcher's tools consist of a small knife, glue made from animal fat, string, small weights for balancing and jigs."
-					]
-				}
-			]
-		},
-		{
-			"name": "+1 Beastskin",
-			"type": "TG",
-			"rarity": "rare",
-			"source": "LLaM",
-			"weight": 5,
-			"price": 12000,
-			"entries": [
-				"Remnant of a beast or animal. Could be turned into somewhat stronger-than-normal armor.",
-				{
-					"type": "entries",
-					"name": "Crafting",
-					"entries": [
-						"With a DC16 {@item Leatherworker's Tools|PHB} check, convert this item into {@item +1 Leather Armor|DMG} during a long rest."
-					]
-				}
-			]
-		},
-		{
-			"name": "Beast Claw",
-			"type": "TG",
-			"rarity": "common",
-			"source": "LLaM",
-			"weight": 0,
-			"price": 2,
-			"entries": [
-				"The claw of a ferocious animal, showing marks of many successful hunts.",
-				{
-					"type": "entries",
-					"name": "Crafting",
-					"entries": [
-						"With a {@item Fletcher's Kit|LLaM}, convert up to 10 of this item into {@item Arrow|PHB} during a short rest."
-					]
-				}
-			]
-		},
-		{
-			"name": "Aarakocra Talon",
-			"type": "TG",
-			"rarity": "common",
-			"source": "LLaM",
-			"weight": 0,
-			"price": 4,
-			"entries": [
-				"The sharp claws of a bird's footm slightly brownish in color.",
-				{
-					"type": "entries",
-					"name": "Crafting",
-					"entries": [
-						"Has the same crafting properties as {@item Beast Claw|LLaM}."
-					]
-				}
-			]
-		},
-		{
-			"name": "Thunderbrew",
-			"type": "P",
-			"rarity": "uncommon",
-			"source": "LLaM",
-			"weight": 1,
-			"price": 250,
-			"entries": [
-				"A strong alcoholic beverage. Downing the entire mug in one go will allow you to add your proficiency bonus to unarmed melee attacks for one minute. Additionally, your unarmed strikes get an additional 1d10 thunder damage for one minute.",
-				"When drinking this, roll a DC12 Constitution check. On failure, you go prone."
-			]
-		},
-		{
-			"name": "Apple of Loki",
-			"type": "P",
-			"rarity": "none",
-			"source": "LLaM",
-			"weight": 1,
-			"charges": 200,
-			"attachedSpells": [
-				"nystul's magic aura"
-			],
-			"entries": [
-				"A shimmering apple, so white it seems to be glowing.",
-				"Allows casting of {@spell nystul's magic aura|PHB}, its duration replaced with the amount of charges of the apple used. The charges are used up by taking bites of the apple, consuming it in the process,",
-				"When all 200 charges are used up by a single creature, they gain the passive effect of {@spell nystul's magic aura|PHB} as if they'd been casting it for 30 days."
-			]
-		},
-		{
-			"name": "Illusory Dust",
-			"type": "TG",
-			"rarity": "rare",
-			"source": "LLaM",
-			"weight": 0,
-			"price": 1000,
-			"entries": [
-				"Mundane dust infused with the raw magical power of Illusion. Some remnants of the original spell still remain.",
-				"Whenever you cast a spell, you can use any amount of this item instead of components that cost gp in the casting of that spell."
-			]
-		},
-		{
-			"name": "Demonskin",
-			"type": "TG",
-			"rarity": "rare",
-			"source": "LLaM",
-			"weight": 5,
-			"price": 16000,
-			"entries": [
-				"Remains of a demonic or devilish creature. It's warm to the touch and harder than you'd expect, as if tempered in the fires of Hell.",
-				{
-					"type": "entries",
-					"name": "Crafting",
-					"entries": [
-						"With a DC18 {@item Leatherworker's Tools|PHB} check, convert this item over a long rest into {@item Demonleather Armor|LLaM}."
-					]
-				}
-			]
-		},
-		{
-			"name": "Demonleather Armor",
-			"source": "LLaM",
-			"type": "LA",
-			"rarity": "rare",
-			"weight": 5,
-			"value": 1000,
-			"ac": 12,
-			"armor": true,
-			"entries": [
-				"You have resistance against fire damage.",
-				"Relatively common armor for humanoid denizens of hell without natural protection."
-			]
-		}
-	]
+    "_meta": {
+        "sources": [
+            {
+                "json": "LLaM",
+                "abbreviation": "LLaM",
+                "full": "Lily's Looting and More",
+                "authors": [
+                    "ActualLily"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/ActualLily/lilys-looting-and-more",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 1628492277,
+        "dateLastModified": 1629442748
+    },
+    "item": [
+        {
+            "name": "Fletcher's Kit",
+            "type": "AT",
+            "rarity": "common",
+            "source": "LLaM",
+            "entries": [
+                "Although maintaining of ranged weapons is usually left to the experts, a crafty adventurer can ensure plenty of usage of these tools in making sure their ranged weaponry is up to speed.",
+                {
+                    "type": "entries",
+                    "name": "Components",
+                    "entries": [
+                        "Fletcher's tools consist of a small knife, glue made from animal fat, string, small weights for balancing and jigs."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "+1 Beastskin",
+            "type": "TG",
+            "rarity": "rare",
+            "source": "LLaM",
+            "weight": 5,
+            "price": 12000,
+            "entries": [
+                "Remnant of a beast or animal. Could be turned into somewhat stronger-than-normal armor.",
+                {
+                    "type": "entries",
+                    "name": "Crafting",
+                    "entries": [
+                        "With a DC16 {@item Leatherworker's Tools|PHB} check, convert this item into {@item +1 Leather Armor|DMG} during a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chitin",
+            "type": "TG",
+            "rarity": "common",
+            "source": "LLaM",
+            "weight": 3,
+            "price": 15,
+            "entries": [
+                "Natural, hard armoring. This particular one is from a giant mantis.",
+                {
+                    "type": "entries",
+                    "name": "Crafting",
+                    "entries": [
+                        "With a DC14 {@item Leatherworker's Tools|PHB} check, convert any armor into into {@item Natural Scalemail|LLaM} during a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Natural Scalemail",
+            "source": "LLaM",
+            "type": "LA",
+            "rarity": "rare",
+            "weight": 5,
+            "value": 600,
+            "ac": 13,
+            "armor": true,
+            "entries": [
+                "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of a creature's natural armoring, much like the scales of a fish. The suit includes gauntlets.",
+                "As opposed to normal scale mail, due to the use of natural materials it does not impose disadvantage on stealth."
+            ]
+        },
+        {
+            "name": "Giant Mantis Claw",
+            "type": "TG",
+            "rarity": "uncommon",
+            "source": "LLaM",
+            "weight": 0,
+            "price": 4,
+            "entries": [
+                "The pincer of a giant mantis.",
+                {
+                    "type": "entries",
+                    "name": "Crafting",
+                    "entries": [
+                        "With a DC13 {@item Fletcher's Kit|LLaM} check, convert up to 5 of this item into {@item +1 Arrow|PHB} during a short rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Beast Claw",
+            "type": "TG",
+            "rarity": "common",
+            "source": "LLaM",
+            "weight": 0,
+            "price": 2,
+            "entries": [
+                "The claw of a ferocious animal, showing marks of many successful hunts.",
+                {
+                    "type": "entries",
+                    "name": "Crafting",
+                    "entries": [
+                        "With a {@item Fletcher's Kit|LLaM}, convert up to 10 of this item into {@item Arrow|PHB} during a short rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aarakocra Talon",
+            "type": "TG",
+            "rarity": "common",
+            "source": "LLaM",
+            "weight": 0,
+            "price": 4,
+            "entries": [
+                "The sharp claws of a bird's footm slightly brownish in color.",
+                {
+                    "type": "entries",
+                    "name": "Crafting",
+                    "entries": [
+                        "Has the same crafting properties as {@item Beast Claw|LLaM}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Thunderbrew",
+            "type": "P",
+            "rarity": "uncommon",
+            "source": "LLaM",
+            "weight": 1,
+            "price": 250,
+            "entries": [
+                "A strong alcoholic beverage. Downing the entire mug in one go will allow you to add your proficiency bonus to unarmed melee attacks for one minute. Additionally, your unarmed strikes get an additional 1d10 thunder damage for one minute.",
+                "When drinking this, roll a DC12 Constitution check. On failure, you go prone."
+            ]
+        },
+        {
+            "name": "Apple of Loki",
+            "type": "P",
+            "rarity": "none",
+            "source": "LLaM",
+            "weight": 1,
+            "charges": 200,
+            "attachedSpells": [
+                "nystul's magic aura"
+            ],
+            "entries": [
+                "A shimmering apple, so white it seems to be glowing.",
+                "Allows casting of {@spell nystul's magic aura|PHB}, its duration replaced with the amount of charges of the apple used. The charges are used up by taking bites of the apple, consuming it in the process,",
+                "When all 200 charges are used up by a single creature, they gain the passive effect of {@spell nystul's magic aura|PHB} as if they'd been casting it for 30 days."
+            ]
+        },
+        {
+            "name": "Illusory Dust",
+            "type": "TG",
+            "rarity": "rare",
+            "source": "LLaM",
+            "weight": 0,
+            "price": 1000,
+            "entries": [
+                "Mundane dust infused with the raw magical power of Illusion. Some remnants of the original spell still remain.",
+                "Whenever you cast a spell, you can use any amount of this item instead of components that cost gp in the casting of that spell."
+            ]
+        },
+        {
+            "name": "Demonskin",
+            "type": "TG",
+            "rarity": "rare",
+            "source": "LLaM",
+            "weight": 5,
+            "price": 16000,
+            "entries": [
+                "Remains of a demonic or devilish creature. It's warm to the touch and harder than you'd expect, as if tempered in the fires of Hell.",
+                {
+                    "type": "entries",
+                    "name": "Crafting",
+                    "entries": [
+                        "With a DC18 {@item Leatherworker's Tools|PHB} check, convert this item over a long rest into {@item Demonleather Armor|LLaM}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Demonleather Armor",
+            "source": "LLaM",
+            "type": "LA",
+            "rarity": "rare",
+            "weight": 5,
+            "value": 1000,
+            "ac": 12,
+            "armor": true,
+            "entries": [
+                "You have resistance against fire damage.",
+                "Relatively common armor for humanoid denizens of hell without natural protection."
+            ]
+        }
+    ]
 }
